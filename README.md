@@ -14,12 +14,4 @@ This project is designed to demonstrate basic concepts of API usage, input valid
 * ⚡ Simple and user-friendly CLI interface
 
 🔄 Process / How It Works
-1.User enters a word or phrase
-2.User selects a target language code (from allowed options)
-3.The program validates the selected language
-4.googletrans detects the source language automatically
-5.The text is translated into the target language
-6.Output displays:
-  * Detected language
-  * Target language
-  * Translated text
+The application works by first taking a word or phrase as input from the user along with a target language code from a predefined set of allowed languages. It then validates whether the selected language is permitted, and if valid, uses the googletrans library to automatically detect the source language of the input text. After detection, the program translates the text into the chosen target language and displays the detected language, target language, and the translated output to the user in a simple command-line interface.
