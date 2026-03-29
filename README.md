@@ -1,4 +1,4 @@
-📌 Project Description
+<u>📌 Project Description</u>
 <br>
 Simple Translator is a lightweight Python-based command-line application that translates words or phrases into multiple languages using the googletrans library. It detects the source language automatically and converts the input into a user-specified target language from a predefined set.
 This project is designed to demonstrate basic concepts of API usage, input validation, and language processing in Python.
